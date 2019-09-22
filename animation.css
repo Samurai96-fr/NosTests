@@ -1,0 +1,22 @@
+//sur la phrase de début
+//génère infiniment les clignotements
+.begin{
+    text-align: center;
+    animation: Test 1.5s infinite;   
+}
+@keyframes Test{
+    0%{opacity: 1;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+}
+.animate{
+    position: absolute;
+    animation: Sky 1s ease-in;
+}
+@keyframes Sky{
+    0%{top: 0;}
+    100%{top: 50%;}
+}
+.animateEnd{
+    top: 50%;
+}
